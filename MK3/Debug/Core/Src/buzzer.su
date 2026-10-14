@@ -1,0 +1,2 @@
+../Core/Src/buzzer.c:4:6:Buzzer_Init	64	static
+../Core/Src/buzzer.c:21:6:Buzzer_SetHz	0	static

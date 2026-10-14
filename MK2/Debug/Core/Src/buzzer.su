@@ -1,0 +1,4 @@
+../Core/Src/buzzer.c:6:17:tim1_clock_hz	32	static
+../Core/Src/buzzer.c:19:6:Buzzer_Init	48	static
+../Core/Src/buzzer.c:51:6:Buzzer_On	0	static
+../Core/Src/buzzer.c:56:6:Buzzer_Off	0	static

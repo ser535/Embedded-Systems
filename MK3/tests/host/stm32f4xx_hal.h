@@ -1,0 +1,7 @@
+#ifndef TEST_HAL_H
+#define TEST_HAL_H
+#include <stdint.h>
+typedef struct { int unused; } I2C_HandleTypeDef;
+int HAL_I2C_Mem_Write(I2C_HandleTypeDef *, uint16_t, uint16_t, uint16_t, uint8_t *, uint16_t, uint32_t);
+void HAL_Delay(uint32_t);
+#endif

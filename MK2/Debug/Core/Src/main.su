@@ -1,0 +1,8 @@
+../Core/Src/main.c:45:13:Display_KeypadLegend	8	static
+../Core/Src/main.c:92:13:Display_Alarm	8	static
+../Core/Src/main.c:30:13:DrawNumber	24	static
+../Core/Src/main.c:70:13:Display_SetValue	16	static
+../Core/Src/main.c:81:13:Display_Remaining	16	static
+../Core/Src/main.c:262:6:Error_Handler	0	static,ignoring_inline_asm
+../Core/Src/main.c:227:6:SystemClock_Config	88	static
+../Core/Src/main.c:104:5:main	32	static

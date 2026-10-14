@@ -1,0 +1,12 @@
+../Core/Src/tetris.c:14:17:random32	0	static
+../Core/Src/tetris.c:20:16:draw	16	static
+../Core/Src/tetris.c:13:10:Tetris_Shape	0	static
+../Core/Src/tetris.c:32:12:fits	16	static
+../Core/Src/tetris.c:43:13:spawn	8	static
+../Core/Src/tetris.c:62:13:lock	16	static
+../Core/Src/tetris.c:85:13:down	16	static
+../Core/Src/tetris.c:55:6:Tetris_Init	16	static
+../Core/Src/tetris.c:49:13:start	16	static
+../Core/Src/tetris.c:90:6:Tetris_Key	24	static
+../Core/Src/tetris.c:124:6:Tetris_Tick	16	static
+../Core/Src/tetris.c:132:6:Tetris_Snapshot	16	static

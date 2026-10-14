@@ -1,0 +1,5 @@
+../Core/Src/keypad.c:20:26:pca_write	1
+../Core/Src/keypad.c:31:26:pca_read	1
+../Core/Src/keypad.c:75:13:keypad_read_raw	8
+../Core/Src/keypad.c:42:9:Keypad_Init	4
+../Core/Src/keypad.c:124:6:Keypad_GetKey	6

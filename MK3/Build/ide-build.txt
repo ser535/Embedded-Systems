@@ -1,0 +1,10 @@
+14:11:19 **** Build of configuration Debug for project SDK_Tetris_FreeRTOS ****
+make all 
+arm-none-eabi-size  SDK_Tetris_FreeRTOS.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32816	    128	  19552	  52496	   cd10	SDK_Tetris_FreeRTOS.elf
+Finished building: default.size.stdout
+ 
+
+14:11:20 Build Finished. 0 errors, 0 warnings. (took 240ms)
+

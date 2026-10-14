@@ -1,0 +1,25 @@
+SDK Tetris FreeRTOS validation - 2026-10-14
+Target STM32F407VGTx, Cortex-M4F, hard-float
+GCC 13.3.1 from installed STM32CubeIDE
+STM32CubeIDE project import: PASS
+Full ARM compile/link: PASS (one inherited RWX LOAD segment linker warning)
+STM32CubeIDE subsequent build: PASS
+Size: text 32816, data 128, bss 19552 bytes
+Host tests: PASS with AddressSanitizer + UndefinedBehaviorSanitizer
+100000 deterministic stress steps: PASS
+Actual oled.c/fonts.c framebuffer capture: PASS, visually reviewed help/game
+Hardware flashing/execution: NOT TESTED (board unavailable)
+CubeMX regeneration: NOT TESTED
+
+Unmodified timer driver SHA256:
+Core/Src/oled.c df25cf25fcd7f44f0a0771454b29a8925f4ee3e69a0af34614791654b8392866
+Core/Inc/oled.h 3e317abf270c2490ad0a8051893389cd7514870b2eb239dd2563c5648d30d8fc
+Core/Src/fonts.c a21bde8477b20067354a162b8be0ad81c3dca5f63f28f133c2ec048ddffefa71
+Core/Inc/fonts.h c004e84f2f38de431ea5995320382ee6118e856151eccf9ee1da837693bcc463
+Core/Src/keypad.c 57420e57d42a502174fccd3613c3f2e7b464883625c2df1ca40c09eb79a1aa19
+Core/Inc/keypad.h 7811bfdee65d870298986b69c6bc271a602844c2f3c042ed932715943c7343e0
+
+Prebuilt firmware SHA256:
+SDK_Tetris_FreeRTOS.bin 698337c20e551c6c0ebe580126544acb2024b32beecb44719cc8bd5b00ecf7ae
+SDK_Tetris_FreeRTOS.elf 0f348edb9d7e964cd398c43a88f512750aaf2d60b27da910ed5559172c1c5f5a
+SDK_Tetris_FreeRTOS.hex 57df5d5fe5782e041b09b8298edcebf9e8a35ce6ef452b57e5823618421ad0fc

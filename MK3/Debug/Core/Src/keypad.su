@@ -1,0 +1,4 @@
+../Core/Src/keypad.c:13:26:pca_write	32	static
+../Core/Src/keypad.c:24:26:pca_read	24	static
+../Core/Src/keypad.c:35:9:Keypad_Init	16	static
+../Core/Src/keypad.c:59:9:Keypad_ReadMask	32	static

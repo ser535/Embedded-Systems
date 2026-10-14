@@ -1,0 +1,3 @@
+../Core/Src/tetris_audio.c:21:17:duration	2
+../Core/Src/tetris_audio.c:27:6:AudioPlayer_Init	1
+../Core/Src/tetris_audio.c:28:10:AudioPlayer_Update	13

@@ -1,0 +1,6 @@
+../Core/Src/freertos.c:90:6:StartInputTask	8	static
+../Core/Src/freertos.c:96:6:StartGameTask	8	static
+../Core/Src/freertos.c:102:6:StartDisplayTask	8	static
+../Core/Src/freertos.c:109:6:StartAudioTask	8	static
+../Core/Src/freertos.c:68:6:vApplicationGetIdleTaskMemory	0	static
+../Core/Src/freertos.c:73:6:MX_FREERTOS_Init	128	static,ignoring_inline_asm

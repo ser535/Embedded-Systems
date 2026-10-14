@@ -1,0 +1,3 @@
+../Core/Src/key_controls.c:4:6:KeyControls_Init	1
+../Core/Src/key_controls.c:5:5:KeyControls_Ambiguous	6
+../Core/Src/key_controls.c:15:10:KeyControls_Update	13

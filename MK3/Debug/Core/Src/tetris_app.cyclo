@@ -1,0 +1,5 @@
+../Core/Src/tetris_app.c:16:6:TetrisApp_Init	5
+../Core/Src/tetris_app.c:29:6:TetrisApp_InputTask	8
+../Core/Src/tetris_app.c:56:6:TetrisApp_GameTask	12
+../Core/Src/tetris_app.c:84:6:TetrisApp_DisplayTask	2
+../Core/Src/tetris_app.c:106:6:TetrisApp_AudioTask	2
